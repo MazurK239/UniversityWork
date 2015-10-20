@@ -17,13 +17,19 @@ def max_eigVal(matr):
 	X0 = [0 for dummy_idx in range(N)]
 	while (abs(X[0] - X0[0]) > 0.00000001):
 		X0 = X
-		X = np.dot(matr, map(lambda item: item / X0[0], X))
+		X = np.dot(matr, map(lambda item: item / X[0], X))
 	return X[0]
 
 def min_eigVal(matr):
 	N = len(matr[0])
-	
+	X = np.ones([N])
+	X0 = np.zeros([N])
+	while (abs(X[0] - X0[0]) > 0.00000001):
+		X0 = X
+		X = np.linalg.solve(matr, map(lambda item: item / X[0], X))
+	return 1 / X[0]
 
 
 Ar = matrix(2, 1, 1, 1)
 print max(np.linalg.eigvalsh(Ar)), max_eigVal(Ar)
+print min(np.linalg.eigvalsh(Ar)), min_eigVal(Ar)
