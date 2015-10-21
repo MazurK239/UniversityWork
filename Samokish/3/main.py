@@ -1,6 +1,12 @@
 #! usr/local/bin/python
 # coding: utf-8
 
+###
+# Данная программа находит наибольшее и наименьшее (не по модулю)
+# Собственные числа матрицы, заданной методом matrix.
+# Программа использует простейший степенной метод со сдвинутой матрицей
+###
+
 import math
 import numpy as np
 
@@ -30,6 +36,11 @@ def min_eigVal(matr):
 	return 1 / X[0]
 
 
-Ar = matrix(2, 1, 1, 1)
-print max(np.linalg.eigvalsh(Ar)), max_eigVal(Ar)
-print min(np.linalg.eigvalsh(Ar)), min_eigVal(Ar)
+Ar = matrix(4, 1, 1, 1)
+print np.linalg.eigvalsh(Ar)
+
+M = max_eigVal(Ar)
+Ar += M * np.eye(4)
+
+print max_eigVal(Ar) - M
+print min_eigVal(Ar) - M
