@@ -1,5 +1,6 @@
 import math
 import numpy as np
+import matplotlib.pyplot as plt
 
 eps = 0.000001
 n = 10
@@ -36,7 +37,7 @@ z = []; z.append(-1)
 
 x = 0
 for i in range(1, n + 1):
-	x += i*h
+	x += h
 	k1 = findK1(x, y[-1], z[-1])
 	l1 = (2 * (y[-1] + gamma * h * k1) - A * z[-1] - ost(x + gamma*h)) / znam
 	k2 = findK2(x, y[-1], z[-1], k1, l1)
@@ -44,3 +45,10 @@ for i in range(1, n + 1):
 	y.append(y[-1] + h / 2 * (k1 + k2))
 	z.append(z[-1] + h / 2 * (l1 + l2))
 	print 'y[', i, '] = ', y[-1], ';   z[', i, '] = ', z[-1]
+
+plt.figure(1)
+plt.subplot(211)
+plt.plot([i/h for i in range(n+1)], y)
+plt.subplot(212)
+plt.plot([i/h for i in range(n+1)], z)
+plt.show()
