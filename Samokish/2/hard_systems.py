@@ -48,7 +48,7 @@ for i in range(1, n + 1):
 
 plt.figure(1)
 plt.subplot(211)
-plt.plot([i/h for i in range(n+1)], y)
+plt.plot([i*h for i in range(n+1)], y)
 plt.subplot(212)
-plt.plot([i/h for i in range(n+1)], z)
+plt.plot([i*h for i in range(n+1)], z)
 plt.show()
