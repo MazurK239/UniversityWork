@@ -1,7 +1,7 @@
 #! usr/local/bin/python
 # coding:utf-8
 
-from MaxMin_eigenvalues import matrix
+from max_min_eigen import matrix
 import math
 import numpy as np
 
