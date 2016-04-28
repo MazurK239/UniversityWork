@@ -1,0 +1,91 @@
+\documentclass[a4paper,12pt]{report}
+
+\usepackage[utf8]{inputenc}
+\usepackage[russian]{babel}
+\usepackage{amsmath}
+\usepackage{multicol}
+\setlength{\columnsep}{1cm}
+\inputencoding{utf8}
+
+\usepackage{geometry} % Меняем поля страницы
+\geometry{left=2cm}% левое поле
+\geometry{right=1.5cm}% правое поле
+\geometry{top=3cm}% верхнее поле
+\geometry{bottom=2cm}% нижнее поле
+
+\begin{document}
+
+\begin{center}
+\Large
+{\bf Решение эллиптического уравнения методами простых итераций, Зейделя и верхней релаксации.}
+\end{center}
+
+\underline{Постановка задачи:} требуется численно решить эллиптическое уравнение в частных производных
+\begin{equation}
+a_{11}(x,y)\frac{\partial^2 u}{\partial x^2} + a_{22}(x,y)\frac{\partial^2 u}{\partial y^2} + a_1(x,y)\frac{\partial u}{\partial x} + a_2(x,y)\frac{\partial u}{\partial y} + a(x,y)u = f(x,y)
+\end{equation}
+с граничными условиями:
+\begin{equation}
+\frac{\partial u}{\partial y}(x,0) = 0 ; \quad
+u(0,y) = 0;\: u(1,y) = 1; \quad
+x\in[0,1]; y=1+x:\: u(x,y) = x
+\end{equation}
+
+В данной задаче:
+\begin{equation}
+\begin{aligned}
+a_{11} & = (x^2 + 1) & a_1 & = x & a & = 0 \\
+a_{22} & = (y^2 + 1) & a_2 & = -y & f & = y^2(x-1)^2 \\
+\end{aligned}
+\end{equation}
+
+\underline{Составляем разностные уравнения:} 
+\begin{multline}
+a_{11}(x_i,y_k)\frac{u_{i+1,k}-2u_{ik}+u_{i-1,k}}{h^2} + a_{22}(x_i,y_k)\frac{u_{i,k+1}-2u_{ik}+u_{i,k+1}}{h^2} + \\
++a_1(x_i,y_k)\frac{u_{i+1,k}-u_{i-1,k}}{2h} + a_2(x_i,y_k)\frac{u_{i,k+1}-u_{i,k-1}}{2h} + a(x_i,y_k)u_{ik} = f(x_i,y_k)
+\end{multline}
+
+Для граничных условий уравнения будут выглядеть так:
+\begin{equation}
+u_{i,0}=\frac{1}{1+\frac{a_{11}}{a_{22}h}} \left( \left(\frac{1}{h}+\frac{a_2}{2a_{22}} \right) u_{i,1} + \left(\frac{a_{11}}{2ha_{22}}+\frac{a_1}{4a_{22}} \right) u_{i+1,0} 
++\left(\frac{a_{11}}{2ha_{22}}-\frac{a_1}{4a_{22}} \right) u_{i-1,0} \right)
+\end{equation}
+\begin{equation}
+u_{0,k} = 0; \: u_{n,k} = 1; \: u_{i,1+i} = (i+1)h
+\end{equation}
+
+Сетка имеет вид: $x_i = h * i$, $y_k = h * k$, где $h$ - шаг сетки. 
+\\Область имеет вид трапеции: $y\in[0,1): \: x\in[0,1]; \quad y\in[1,2]: \: x\in[y-1,1]$
+\\Численное решение будем искать в виде: $u_{ik} \approx u(x_i, y_k)$
+\\
+\begin{itemize}
+\item{{\bf Метод простых итераций:}\\
+Разрешаем уравнения относительно $u_{ik}$:
+\begin{equation}
+u_{ik}^{(n+1)}=\frac{ \left( A_{ik}u_{i-1,k} + B_{ik}u_{i,k-1} + C_{ik}u_{i,k+1} + D_{ik}u_{i+1,k} - F_{ik} \right)^{(n)} }{E_{ik}}
+\end{equation}
+Где:
+\begin{equation}
+\begin{aligned}
+A_{ik} & = \frac{a_{11}}{h^2} - \frac{a_1}{2h} & D_{ik} & = \frac{a_{11}}{h^2} + \frac{a_1}{2h} & E_{ik} & = \frac{2}{h^2}(a_{11}+a_{22}) - a \\
+B_{ik} & = \frac{a_{22}}{h^2} - \frac{a_2}{2h} & C_{ik} & = \frac{a_{22}}{h^2} - \frac{a_2}{2h} & F_{ik} & = f(x_i,y_k) \\
+\end{aligned}
+\end{equation}
+}
+\item{{\bf Метод Зейделя:}
+\\ Используется для ускорения сходимости. Работает, если $a_{11}; \; a_{22}$ и $a$ разных знаков.
+\begin{equation}
+u_{ik}^{(n+1)}=\frac{ \left( A_{ik}u_{i-1,k}^{(n+1)} + B_{ik}u_{i,k-1}^{(n+1)} + C_{ik}u_{i,k+1}^{(n)} + D_{ik}u_{i+1,k}^{(n)} - F_{ik} \right) }{E_{ik}}
+\end{equation}
+}
+\item{{\bf Метод верхней релаксации:}
+\\ Метод сходится еще быстрее метода Зейделя при правильном подборе параметра $\omega$.
+\\ Сначала ищем $ \tilde{u}_{ik}^{(n+1)} $ по методу Зейделя. Затем уточняем значение, пользуясь формулой:
+\begin{equation}
+u_{ik}^{(n+1)} = u_{ik}^{(n)} + \omega(\tilde{u}_{ik}^{(n+1)} - u_{ik}^{(n)})
+\end{equation}
+Параметр $\omega \in (1,2)$. В данной задаче будем искать его эмпирически.
+}
+\end{itemize}
+
+\end{document}
