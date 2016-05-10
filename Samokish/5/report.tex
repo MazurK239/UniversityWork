@@ -1,0 +1,62 @@
+\documentclass[a4paper,12pt]{report}
+
+\usepackage[utf8]{inputenc}
+\usepackage[russian]{babel}
+\usepackage{amsmath}
+\usepackage{multicol}
+\usepackage{amssymb}
+\setlength{\columnsep}{1cm}
+\inputencoding{utf8}
+
+\usepackage{geometry} % Меняем поля страницы
+\geometry{left=2cm}% левое поле
+\geometry{right=1.5cm}% правое поле
+\geometry{top=3cm}% верхнее поле
+\geometry{bottom=2cm}% нижнее поле
+
+\begin{document}
+
+\begin{center}
+\Large
+{\bf Решение интегрального уравнения I рода методом механических квадратур.}
+\end{center}
+
+\underline{Постановка задачи:} требуется численно решить интергальное уравнение I рода
+\begin{equation}
+\int_a^b K(x,t)u(t)dt = f(x)
+\end{equation}
+
+\underline{В данной задаче:}
+\begin{equation}
+\begin{aligned}
+& K(x,t) = \frac{1}{(x + t + \frac{3}{2})^2} \\
+& f(x) = \frac{1}{1+x}ln(\frac{3(x+\frac{3}{2})}{x+\frac{5}{2}}) - \frac{ln(2)}{x+\frac{3}{2}} - \frac{ln(\frac{3}{2})}{x+\frac{5}{2}}\\
+& [a,b] = [0,1]
+\end{aligned}
+\end{equation}
+
+Для решения необходимо найти функцию $u$, минимизирующую регуляризатор $\alpha \Vert u \Vert^2 + \Vert Ku - f \Vert^2$, где $\alpha$ - варьируемый параметр. \\
+В итоге все сведется к интегральному уравнению II рода:
+\begin{equation}
+\begin{aligned}
+& \alpha u(x) + \int_a^b (K^{*}K)(x,t)u(t)dt = \int_a^b K(t,x)f(t)dt\\
+& K^{*}K(x,t) = \int_a^b K(\xi,x)K(\xi,t)d\xi
+\end{aligned}
+\end{equation}
+Его будем решать методом механических квадратур.\newline
+
+Заменим интеграл на приближенное выражение по квадратурной формуле Гаусса:
+\begin{equation}
+\int_a^b K(x,t)u(t)dt \approx \sum_{i=1}^n A_i K(x,\xi_i)u(\xi_i)
+\end{equation}
+Узлы квадратурной формулы $\xi_i$ - корни полинома Лежандра степени $n$, которые можно найти методом итераций:
+\begin{equation}
+\xi_i^{(0)} = cos(\pi \frac{4i-1}{4n+2}); \quad \xi_i^{(k+1)} = \xi_i^{(k)} - \frac{P_n(\xi_i^{(k)})}{P_n^\prime(\xi_i^{(k)})}
+\end{equation}
+Где $P_n^\prime(x) = \frac{n}{1-x^2}(P_{n-1}(x) - xP_n(x))$ - производная от полинома Лежандра.
+Веса квадратурной формулы вычисляются по формуле: $A_i = \frac{2}{(1-\xi_i^2)(P_n^\prime(\xi_i))^2}$ \newline
+
+Запишем уравнение (3) с учетом (4) в узлах квадратурной формулы $\xi_i$. Получим систему уравнений относительно $u_i$. Решение этой системы приближенно равно решению исходного уравнения: 
+$u_i \approx u(x_i)$. При уменьшении параметра $\alpha$ до некоторых предельной значений, решение системы будет все лучше сходиться к истинному.
+
+\end{document}
