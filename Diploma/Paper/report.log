@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.4.17)  18 MAY 2017 17:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.4.17)  19 MAY 2017 23:53
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1075,9 +1075,9 @@ Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
 Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 )
 \verbatim@out=\write3
-runsystem(touch w18-test-20175181033.tex)...executed.
+runsystem(touch w18-test-20175191433.tex)...executed.
 
-runsystem(rm -f w18-test-20175181033.tex)...executed.
+runsystem(rm -f w18-test-20175191433.tex)...executed.
 
 Package gnuplottex Info: Automatically converting gnuplot files. on input line 
 109.
@@ -1217,26 +1217,16 @@ LaTeX Info: Redefining \nameref on input line 33.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 55.
+(babel)             in language  on input line 56.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 55.
+(babel)             in language  on input line 56.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 55.
+(babel)             in language  on input line 56.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 55.
+(babel)             in language  on input line 56.
 [1
 
 {/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 56.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 56.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 56.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 56.
-
-[2]
 Package babel Info: Redefining russian shorthand "|
 (babel)             in language  on input line 79.
 Package babel Info: Redefining russian shorthand "~
@@ -1289,13 +1279,7 @@ Package babel Info: Redefining russian shorthand "|
 (babel)             in language  on input line 99.
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language  on input line 99.
-pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.99 Р 
-       Р°Р·СѓРјРµРµС‚СЃСЏ, РєР°Рє Рё Р»СЋР±РѕРµ РёР·РјРµСЂРµРЅРёРµ, РїРѕРґРѕ...
-[2]
+ [2]
 Package babel Info: Redefining russian shorthand "|
 (babel)             in language  on input line 118.
 Package babel Info: Redefining russian shorthand "~
@@ -1434,7 +1418,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 265--270
 
  []
 
-<Images/rtcm_groups.jpg, id=161, 943.525pt x 824.07875pt>
+<Images/rtcm_groups.jpg, id=158, 943.525pt x 824.07875pt>
 File: Images/rtcm_groups.jpg Graphic file (type jpg)
 
 <use Images/rtcm_groups.jpg>
@@ -1457,7 +1441,7 @@ Package babel Info: Redefining russian shorthand "|
 (babel)             in language  on input line 284.
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language  on input line 284.
-[15] <Images/ntrip.jpg, id=170, 586.19pt x 555.07375pt>
+[15] <Images/ntrip.jpg, id=167, 586.19pt x 555.07375pt>
 File: Images/ntrip.jpg Graphic file (type jpg)
  <use Images/ntrip.jpg>
 Package pdftex.def Info: Images/ntrip.jpg used on input line 286.
@@ -1521,7 +1505,7 @@ Package babel Info: Redefining russian shorthand "|
 (babel)             in language  on input line 330.
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language  on input line 330.
-[19] <Images/map.jpg, id=189, 853.1875pt x 682.55pt>
+[19] <Images/map.jpg, id=186, 853.1875pt x 682.55pt>
 File: Images/map.jpg Graphic file (type jpg)
  <use Images/map.jpg>
 Package pdftex.def Info: Images/map.jpg used on input line 332.
@@ -1643,7 +1627,7 @@ Package babel Info: Redefining russian shorthand "|
 (babel)             in language  on input line 402.
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language  on input line 402.
- [23] <Images/progr.jpg, id=239, 1113.15875pt x 621.32124pt>
+ [23] <Images/progr.jpg, id=236, 1113.15875pt x 621.32124pt>
 File: Images/progr.jpg Graphic file (type jpg)
 
 <use Images/progr.jpg>
@@ -1720,34 +1704,58 @@ Package babel Info: Redefining russian shorthand "|
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language  on input line 459.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 463.
+(babel)             in language  on input line 470.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 463.
+(babel)             in language  on input line 470.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 476.
+(babel)             in language  on input line 470.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 476.
+(babel)             in language  on input line 470.
+[27] <Images/icemap.png, id=270, 401.5pt x 401.5pt>
+File: Images/icemap.png Graphic file (type png)
+ <use Images/icemap.png>
+Package pdftex.def Info: Images/icemap.png used on input line 477.
+(pdftex.def)             Requested size: 348.54475pt x 348.567pt.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 476.
+(babel)             in language  on input line 480.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 476.
-[27]
+(babel)             in language  on input line 480.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 484.
+(babel)             in language  on input line 480.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 484.
+(babel)             in language  on input line 480.
+
+[28]
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 484.
+(babel)             in language  on input line 486.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 484.
- [28]
+(babel)             in language  on input line 486.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 499.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 499.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 499.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 499.
+ [29 <./Images/icemap.png>]
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 507.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 507.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 507.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 507.
+ [30]
 \openout3 = `report-gnuplottex-fig1.gnuplot'.
 
- Opening gnuplot stream report-gnuplottex-fig1.gnuplot
+
+Opening gnuplot stream report-gnuplottex-fig1.gnuplot
 runsystem(gnuplot report-gnuplottex-fig1.gnuplot)...executed.
 
 Package gnuplottex Info: report-gnuplottex-fig1.gnuplot converted on input line
- 499.
+ 522.
 
 (./report-gnuplottex-fig1.tex
 \gptboxheight=\skip44
@@ -1760,11 +1768,11 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 118.
 Package epstopdf Info: Source file: <report-gnuplottex-fig1.eps>
-(epstopdf)                    date: 2017-05-18 17:13:29
+(epstopdf)                    date: 2017-05-19 23:53:15
 (epstopdf)                    size: 22622 bytes
 (epstopdf)             Output file: <report-gnuplottex-fig1-eps-converted-to.pd
 f>
-(epstopdf)                    date: 2017-05-18 17:10:37
+(epstopdf)                    date: 2017-05-19 21:47:58
 (epstopdf)                    size: 7920 bytes
 (epstopdf)             Command: <epstopdf --outfile=report-gnuplottex-fig1-eps-
 converted-to.pdf report-gnuplottex-fig1.eps>
@@ -1774,10 +1782,10 @@ runsystem(epstopdf --outfile=report-gnuplottex-fig1-eps-converted-to.pdf report
 
 Package epstopdf Info: Result file: <report-gnuplottex-fig1-eps-converted-to.pd
 f>
-(epstopdf)                    date: 2017-05-18 17:13:30
+(epstopdf)                    date: 2017-05-19 23:53:16
 (epstopdf)                    size: 7920 bytes.
 
-<report-gnuplottex-fig1-eps-converted-to.pdf, id=284, 454.69875pt x 198.7425pt>
+<report-gnuplottex-fig1-eps-converted-to.pdf, id=296, 454.69875pt x 198.7425pt>
 File: report-gnuplottex-fig1-eps-converted-to.pdf Graphic file (type pdf)
 <use report-gnuplottex-fig1-eps-converted-to.pdf>
 Package pdftex.def Info: report-gnuplottex-fig1-eps-converted-to.pdf used on in
@@ -1791,15 +1799,15 @@ Opening gnuplot stream report-gnuplottex-fig2.gnuplot
 runsystem(gnuplot report-gnuplottex-fig2.gnuplot)...executed.
 
 Package gnuplottex Info: report-gnuplottex-fig2.gnuplot converted on input line
- 517.
+ 540.
 
 (./report-gnuplottex-fig2.tex
 Package epstopdf Info: Source file: <report-gnuplottex-fig2.eps>
-(epstopdf)                    date: 2017-05-18 17:13:30
+(epstopdf)                    date: 2017-05-19 23:53:16
 (epstopdf)                    size: 22769 bytes
 (epstopdf)             Output file: <report-gnuplottex-fig2-eps-converted-to.pd
 f>
-(epstopdf)                    date: 2017-05-18 17:10:38
+(epstopdf)                    date: 2017-05-19 21:47:59
 (epstopdf)                    size: 7981 bytes
 (epstopdf)             Command: <epstopdf --outfile=report-gnuplottex-fig2-eps-
 converted-to.pdf report-gnuplottex-fig2.eps>
@@ -1809,10 +1817,10 @@ runsystem(epstopdf --outfile=report-gnuplottex-fig2-eps-converted-to.pdf report
 
 Package epstopdf Info: Result file: <report-gnuplottex-fig2-eps-converted-to.pd
 f>
-(epstopdf)                    date: 2017-05-18 17:13:30
+(epstopdf)                    date: 2017-05-19 23:53:16
 (epstopdf)                    size: 7981 bytes.
 
-<report-gnuplottex-fig2-eps-converted-to.pdf, id=285, 454.69875pt x 198.7425pt>
+<report-gnuplottex-fig2-eps-converted-to.pdf, id=297, 454.69875pt x 198.7425pt>
 File: report-gnuplottex-fig2-eps-converted-to.pdf Graphic file (type pdf)
 <use report-gnuplottex-fig2-eps-converted-to.pdf>
 Package pdftex.def Info: report-gnuplottex-fig2-eps-converted-to.pdf used on in
@@ -1826,15 +1834,15 @@ Opening gnuplot stream report-gnuplottex-fig3.gnuplot
 runsystem(gnuplot report-gnuplottex-fig3.gnuplot)...executed.
 
 Package gnuplottex Info: report-gnuplottex-fig3.gnuplot converted on input line
- 535.
+ 558.
 
 (./report-gnuplottex-fig3.tex
 Package epstopdf Info: Source file: <report-gnuplottex-fig3.eps>
-(epstopdf)                    date: 2017-05-18 17:13:30
+(epstopdf)                    date: 2017-05-19 23:53:16
 (epstopdf)                    size: 22769 bytes
 (epstopdf)             Output file: <report-gnuplottex-fig3-eps-converted-to.pd
 f>
-(epstopdf)                    date: 2017-05-18 17:10:38
+(epstopdf)                    date: 2017-05-19 21:47:59
 (epstopdf)                    size: 7685 bytes
 (epstopdf)             Command: <epstopdf --outfile=report-gnuplottex-fig3-eps-
 converted-to.pdf report-gnuplottex-fig3.eps>
@@ -1844,10 +1852,10 @@ runsystem(epstopdf --outfile=report-gnuplottex-fig3-eps-converted-to.pdf report
 
 Package epstopdf Info: Result file: <report-gnuplottex-fig3-eps-converted-to.pd
 f>
-(epstopdf)                    date: 2017-05-18 17:13:31
+(epstopdf)                    date: 2017-05-19 23:53:17
 (epstopdf)                    size: 7685 bytes.
 
-<report-gnuplottex-fig3-eps-converted-to.pdf, id=286, 454.69875pt x 198.7425pt>
+<report-gnuplottex-fig3-eps-converted-to.pdf, id=298, 454.69875pt x 198.7425pt>
 File: report-gnuplottex-fig3-eps-converted-to.pdf Graphic file (type pdf)
 <use report-gnuplottex-fig3-eps-converted-to.pdf>
 Package pdftex.def Info: report-gnuplottex-fig3-eps-converted-to.pdf used on in
@@ -1855,14 +1863,14 @@ put line 121.
 (pdftex.def)             Requested size: 454.69763pt x 198.742pt.
 )
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 538.
+(babel)             in language  on input line 561.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 538.
+(babel)             in language  on input line 561.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 538.
+(babel)             in language  on input line 561.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 538.
- [29 <./report-gnuplottex-fig1-eps-converted-to.pdf> <./report-gnuplottex-fig2-
+(babel)             in language  on input line 561.
+ [31 <./report-gnuplottex-fig1-eps-converted-to.pdf> <./report-gnuplottex-fig2-
 eps-converted-to.pdf>]
 \openout3 = `report-gnuplottex-fig4.gnuplot'.
 
@@ -1871,15 +1879,15 @@ Opening gnuplot stream report-gnuplottex-fig4.gnuplot
 runsystem(gnuplot report-gnuplottex-fig4.gnuplot)...executed.
 
 Package gnuplottex Info: report-gnuplottex-fig4.gnuplot converted on input line
- 553.
+ 576.
 
 (./report-gnuplottex-fig4.tex
 Package epstopdf Info: Source file: <report-gnuplottex-fig4.eps>
-(epstopdf)                    date: 2017-05-18 17:13:31
+(epstopdf)                    date: 2017-05-19 23:53:17
 (epstopdf)                    size: 23153 bytes
 (epstopdf)             Output file: <report-gnuplottex-fig4-eps-converted-to.pd
 f>
-(epstopdf)                    date: 2017-05-18 17:10:39
+(epstopdf)                    date: 2017-05-19 21:48:00
 (epstopdf)                    size: 8115 bytes
 (epstopdf)             Command: <epstopdf --outfile=report-gnuplottex-fig4-eps-
 converted-to.pdf report-gnuplottex-fig4.eps>
@@ -1889,10 +1897,10 @@ runsystem(epstopdf --outfile=report-gnuplottex-fig4-eps-converted-to.pdf report
 
 Package epstopdf Info: Result file: <report-gnuplottex-fig4-eps-converted-to.pd
 f>
-(epstopdf)                    date: 2017-05-18 17:13:31
+(epstopdf)                    date: 2017-05-19 23:53:17
 (epstopdf)                    size: 8115 bytes.
 
-<report-gnuplottex-fig4-eps-converted-to.pdf, id=300, 454.69875pt x 198.7425pt>
+<report-gnuplottex-fig4-eps-converted-to.pdf, id=312, 454.69875pt x 198.7425pt>
 File: report-gnuplottex-fig4-eps-converted-to.pdf Graphic file (type pdf)
 <use report-gnuplottex-fig4-eps-converted-to.pdf>
 Package pdftex.def Info: report-gnuplottex-fig4-eps-converted-to.pdf used on in
@@ -1906,15 +1914,15 @@ Opening gnuplot stream report-gnuplottex-fig5.gnuplot
 runsystem(gnuplot report-gnuplottex-fig5.gnuplot)...executed.
 
 Package gnuplottex Info: report-gnuplottex-fig5.gnuplot converted on input line
- 570.
+ 593.
 
 (./report-gnuplottex-fig5.tex
 Package epstopdf Info: Source file: <report-gnuplottex-fig5.eps>
-(epstopdf)                    date: 2017-05-18 17:13:31
+(epstopdf)                    date: 2017-05-19 23:53:17
 (epstopdf)                    size: 23033 bytes
 (epstopdf)             Output file: <report-gnuplottex-fig5-eps-converted-to.pd
 f>
-(epstopdf)                    date: 2017-05-18 17:10:39
+(epstopdf)                    date: 2017-05-19 21:48:00
 (epstopdf)                    size: 8114 bytes
 (epstopdf)             Command: <epstopdf --outfile=report-gnuplottex-fig5-eps-
 converted-to.pdf report-gnuplottex-fig5.eps>
@@ -1924,10 +1932,10 @@ runsystem(epstopdf --outfile=report-gnuplottex-fig5-eps-converted-to.pdf report
 
 Package epstopdf Info: Result file: <report-gnuplottex-fig5-eps-converted-to.pd
 f>
-(epstopdf)                    date: 2017-05-18 17:13:32
+(epstopdf)                    date: 2017-05-19 23:53:18
 (epstopdf)                    size: 8114 bytes.
 
-<report-gnuplottex-fig5-eps-converted-to.pdf, id=301, 454.69875pt x 198.7425pt>
+<report-gnuplottex-fig5-eps-converted-to.pdf, id=313, 454.69875pt x 198.7425pt>
 File: report-gnuplottex-fig5-eps-converted-to.pdf Graphic file (type pdf)
 <use report-gnuplottex-fig5-eps-converted-to.pdf>
 Package pdftex.def Info: report-gnuplottex-fig5-eps-converted-to.pdf used on in
@@ -1941,15 +1949,15 @@ Opening gnuplot stream report-gnuplottex-fig6.gnuplot
 runsystem(gnuplot report-gnuplottex-fig6.gnuplot)...executed.
 
 Package gnuplottex Info: report-gnuplottex-fig6.gnuplot converted on input line
- 587.
+ 610.
 
 (./report-gnuplottex-fig6.tex
 Package epstopdf Info: Source file: <report-gnuplottex-fig6.eps>
-(epstopdf)                    date: 2017-05-18 17:13:32
+(epstopdf)                    date: 2017-05-19 23:53:18
 (epstopdf)                    size: 22766 bytes
 (epstopdf)             Output file: <report-gnuplottex-fig6-eps-converted-to.pd
 f>
-(epstopdf)                    date: 2017-05-18 17:10:40
+(epstopdf)                    date: 2017-05-19 21:48:01
 (epstopdf)                    size: 8001 bytes
 (epstopdf)             Command: <epstopdf --outfile=report-gnuplottex-fig6-eps-
 converted-to.pdf report-gnuplottex-fig6.eps>
@@ -1959,10 +1967,10 @@ runsystem(epstopdf --outfile=report-gnuplottex-fig6-eps-converted-to.pdf report
 
 Package epstopdf Info: Result file: <report-gnuplottex-fig6-eps-converted-to.pd
 f>
-(epstopdf)                    date: 2017-05-18 17:13:32
+(epstopdf)                    date: 2017-05-19 23:53:18
 (epstopdf)                    size: 8001 bytes.
 
-<report-gnuplottex-fig6-eps-converted-to.pdf, id=302, 454.69875pt x 198.7425pt>
+<report-gnuplottex-fig6-eps-converted-to.pdf, id=314, 454.69875pt x 198.7425pt>
 File: report-gnuplottex-fig6-eps-converted-to.pdf Graphic file (type pdf)
 <use report-gnuplottex-fig6-eps-converted-to.pdf>
 Package pdftex.def Info: report-gnuplottex-fig6-eps-converted-to.pdf used on in
@@ -1970,99 +1978,99 @@ put line 121.
 (pdftex.def)             Requested size: 454.69763pt x 198.742pt.
 )
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 590.
+(babel)             in language  on input line 613.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 590.
+(babel)             in language  on input line 613.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 590.
+(babel)             in language  on input line 613.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 590.
- [30 <./report-gnuplottex-fig3-eps-converted-to.pdf> <./report-gnuplottex-fig4-
+(babel)             in language  on input line 613.
+ [32 <./report-gnuplottex-fig3-eps-converted-to.pdf> <./report-gnuplottex-fig4-
 eps-converted-to.pdf> <./report-gnuplottex-fig5-eps-converted-to.pdf>]
-<Images/vostok.png, id=316, 1003.75pt x 1003.75pt>
+<Images/vostok.png, id=328, 1003.75pt x 1003.75pt>
 File: Images/vostok.png Graphic file (type png)
  <use Images/vostok.png>
-Package pdftex.def Info: Images/vostok.png used on input line 598.
+Package pdftex.def Info: Images/vostok.png used on input line 621.
 (pdftex.def)             Requested size: 348.54475pt x 348.54558pt.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 601.
+(babel)             in language  on input line 624.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 601.
+(babel)             in language  on input line 624.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 601.
+(babel)             in language  on input line 624.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 601.
+(babel)             in language  on input line 624.
 
-[31 <./report-gnuplottex-fig6-eps-converted-to.pdf>]
+[33 <./report-gnuplottex-fig6-eps-converted-to.pdf>]
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 602.
+(babel)             in language  on input line 627.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 602.
+(babel)             in language  on input line 627.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 602.
+(babel)             in language  on input line 627.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 602.
- [32 <./Images/vostok.png (PNG copy)>]
+(babel)             in language  on input line 627.
+ [34 <./Images/vostok.png (PNG copy)>]
 {\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 4.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 604.
+(babel)             in language  on input line 629.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 604.
+(babel)             in language  on input line 629.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 607.
+(babel)             in language  on input line 642.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 607.
+(babel)             in language  on input line 642.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 607.
+(babel)             in language  on input line 642.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 607.
-[33]
+(babel)             in language  on input line 642.
+[35]
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 608.
+(babel)             in language  on input line 643.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 608.
+(babel)             in language  on input line 643.
 
-Underfull \hbox (badness 3942) in paragraph at lines 625--630
+Underfull \hbox (badness 3942) in paragraph at lines 660--665
 []\T2A/cmr/m/n/14.4 С.Н.Карутин, \T2A/cmr/m/it/14.4 Вы-со-ко-точ-ное ме-сто-опр
 е-де-ле-ние по сиг-на-лам гло-баль-
  []
 
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 653.
+(babel)             in language  on input line 688.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 653.
+(babel)             in language  on input line 688.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 653.
+(babel)             in language  on input line 688.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 653.
-[34]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 674.
+(babel)             in language  on input line 688.
+[36]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 714.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 674.
+(babel)             in language  on input line 714.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 674.
+(babel)             in language  on input line 714.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 674.
+(babel)             in language  on input line 714.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 674.
- [35]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 674.
+(babel)             in language  on input line 714.
+ [37]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 714.
  (./report.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 674.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 674.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 714.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 714.
 Package rerunfilecheck Info: File `report.out' has not changed.
 (rerunfilecheck)             Checksum: 10C2E3AA995913F541AA4288F75D4F45;3034.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 674.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 714.
  ) 
 Here is how much of TeX's memory you used:
- 11568 strings out of 493117
- 165786 string characters out of 6135433
- 244407 words of memory out of 5000000
- 14792 multiletter control sequences out of 15000+600000
+ 11578 strings out of 493117
+ 165935 string characters out of 6135433
+ 244437 words of memory out of 5000000
+ 14797 multiletter control sequences out of 15000+600000
  19549 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  36i,10n,38p,841b,450s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2086,10 +2094,10 @@ f-dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/local/texlive/2014/texmf-
 dist/fonts/type1/public/cm-super/sfti1440.pfb></usr/local/texlive/2014/texmf-di
 st/fonts/type1/public/cm-super/sftt1000.pfb></usr/local/texlive/2014/texmf-dist
 /fonts/type1/public/cm-super/sftt1440.pfb>
-Output written on report.pdf (38 pages, 919430 bytes).
+Output written on report.pdf (39 pages, 1130837 bytes).
 PDF statistics:
- 429 PDF objects out of 1000 (max. 8388607)
- 355 compressed objects within 4 object streams
- 72 named destinations out of 1000 (max. 500000)
- 168 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 442 PDF objects out of 1000 (max. 8388607)
+ 365 compressed objects within 4 object streams
+ 76 named destinations out of 1000 (max. 500000)
+ 173 words of extra memory for PDF output out of 10000 (max. 10000000)
 
